@@ -12,12 +12,12 @@ This CLI depends on [Nightmare](https://github.com/segmentio/nightmare), you nee
 
 # Usage
 
-`node rasterize.js url filename [--timeout] [--page_size] [--landscape] [--print_background] [--margins_type]`
+`node rasterize.js url filename [--timeout] [--pageSize] [--landscape] [--printBackground] [--marginsType]`
 
 + url [required]
 + filename [required] the name of the generated PDF (eg. 'my_document.pdf')
 + timeout [Optional] default to 1000, defines the timeout between the opening and the rendering of the url by nightmare
-+ page_size [Optional] default to 'A4', accepts options are A3, A4, A5, Legal, Letter or Tabloid
++ pageSize [Optional] default to 'A4', accepts options are A3, A4, A5, Legal, Letter or Tabloid
 + landscape [Optional] default to 0, defines whether rendering pdf in landscape mode
-+ print_background [Optional] default to 1, defines whether printing background
-+ margins_type [Optional] default to 1, defines which margins to use. Uses 0 for default margin, 1 for no margin, and 2 for minimum margin.
++ printBackground [Optional] default to 1, defines whether printing background
++ marginsType [Optional] default to 1, defines which margins to use. Uses 0 for default margin, 1 for no margin, and 2 for minimum margin.
